@@ -1,5 +1,5 @@
 {
-    "name": "mgp25/instagram-api",
+    "name": "dbulvinov/mgp25",
     "description": "Instagram's private API for PHP",
     "license": [
         "RPL-1.5",
@@ -39,7 +39,7 @@
         }
     },
     "require": {
-        "php": ">=5.6",
+        "php": ">=7.2",
         "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
         "guzzlehttp/guzzle": "^6.2",
         "ext-curl": "*",
@@ -47,7 +47,6 @@
         "ext-gd": "*",
         "ext-exif": "*",
         "ext-zlib": "*",
-        "ext-bcmath": "*",
         "react/event-loop": "^0.4.3",
         "react/promise": "^2.5",
         "react/socket": "^0.8",
@@ -62,6 +61,12 @@
     "suggest": {
         "ext-event": "Installing PHP's native Event extension enables faster Realtime class event handling."
     },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/dbulvinov/mgp25"
+        }
+    ],
     "require-dev": {
         "react/http": "^0.7.2",
         "friendsofphp/php-cs-fixer": "^2.11.0",
