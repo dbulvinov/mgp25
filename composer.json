@@ -61,12 +61,6 @@
     "suggest": {
         "ext-event": "Installing PHP's native Event extension enables faster Realtime class event handling."
     },
-    "repositories": [
-        {
-            "type": "github",
-            "url": "https://github.com/dbulvinov/mgp25"
-        }
-    ],
     "require-dev": {
         "react/http": "^0.7.2",
         "friendsofphp/php-cs-fixer": "^2.11.0",
